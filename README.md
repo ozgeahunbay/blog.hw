@@ -1,1 +1,2 @@
 # blog.hw
+Hello! welcome to my 4th homework assignment. Here I made a blog so that you can post submissions including your username, title, and content of your blog. you can also see past posts when you redirect to the blog page. You cant submit a blog post and see your other posts until you fill out all the forms. However, there is a link to the blog page at the bottom of the form page. You can also use light and dark mode in the blog page by clicking on the toggle on the top right corner. If you open the console log, you can see saved local storage. Enjoy.
