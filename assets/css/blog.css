@@ -1,0 +1,146 @@
+
+.header {
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+
+
+}
+
+.container{
+    background-color:rgb(174, 7, 107);
+    
+    color: #fbabda
+   
+}
+
+.toggle {
+    box-sizing: border-box;
+    display:flex;
+    flex-direction:row;
+    justify-content: right;
+    height:50px;
+    width: 100px;
+    background-color: rgba(76, 175, 80, 0.15)
+  }
+  
+  /* Dark Mode */
+  .dark {
+    background-color:rgb(174, 7, 107);
+    height: 100px;
+    color: #fbabda
+   
+  }
+  
+  
+  /* Light Mode */
+  .light {
+    background-color: #ff75ac;
+    color: rgb(65, 10, 83);
+    height: 100px;
+  }
+  
+  
+  /* Styling the Switch button */
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 10px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111;
+    -webkit-transition: .4s;
+    transition: .4s;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 5px;
+    width: 5px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    display: flex;
+    justify-content: center;
+  }
+  
+  input:checked + .slider {
+    background-color: rgb(29, 128, 210);
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px rgb(29, 128, 210);
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
+  .row {
+  
+    display: flex;
+  }
+  .col {
+   
+    font-size: 10px;
+  }
+
+  .btn{
+    color:rgb(154, 4, 61);
+    background-color:rgb(255, 170, 255);
+  }
+
+ .boxes{
+    box-sizing: border-box;
+    border:#cb005c 2px solid;
+    background-color:rgb(251, 195, 195);
+    color:#8a0339;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+
+
+    
+
+
+    
+ }
+ .main{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+
+ }

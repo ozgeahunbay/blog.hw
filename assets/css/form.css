@@ -1,0 +1,26 @@
+.total{
+    background-color: rgb(225, 79, 104);
+    color:white;
+    
+    }
+    
+    .header{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .btn{
+        color:rgb(255, 165, 200);
+        background-color:rgb(133, 45, 62);
+        height:20px;
+        width:90px;
+      }
+
+      .userinput{
+        display:flex;
+        flex-direction:column;
+      
+
+      }
